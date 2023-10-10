@@ -1,0 +1,45 @@
+.FeaturesMenu{
+    width: 100%;
+    height: 40vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.FeatureMenu{
+    transition: .4s;
+    cursor: pointer;
+    padding: 0 15px;
+    width: 20%;
+    background-color: tomato;
+    height: 100px;
+    display: flex;
+    align-items: center;
+}
+.FeatureMenu p:first-child{
+    background-color: red;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    color: white;
+    text-transform: capitalize;
+    
+}
+.FeatureMenu p:first-child i{
+    font-size: 35px;
+}
+.FeatureMenu p{
+    margin:0 2px;
+    text-transform: capitalize;
+
+}
+.FeatureMenu:hover {
+    transform: translateY(-20px);
+}
+@media (max-width:767px) {
+    .FeatureMenu{
+        width: 40%;
+    }
+}

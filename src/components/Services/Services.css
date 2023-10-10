@@ -1,0 +1,36 @@
+.Services{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+h1 span{
+    color: red;
+}
+.Services>p:first-child{
+    color: red;
+    text-transform: capitalize;
+    font-size: 20PX;
+    font-weight: bold;
+}
+.servicesFeatures{
+    display: flex;
+    margin: 20px 0;
+}
+.serviceFeat{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+@media (max-width:767px) {
+    .serviceFeat{
+        width: 100%;
+    }
+    .servicesFeatures{
+        display: block;
+    }
+    .serviceFeat p:last-child{
+        padding: 0 10px;
+    }
+}

@@ -1,0 +1,61 @@
+.testmonialHuman{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.testmonial{
+    display: flex;
+}
+.imgTest{
+    display: flex;
+}
+.imgTest img{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+}
+
+.imgTest p{
+    padding: 10px 30px;
+    text-transform: capitalize;
+}
+
+.leftTest{
+    width: 50%;
+    padding: 10px 15px;
+}
+
+.bullets{
+    display: flex;
+}
+.bullet{
+    width: 10px;
+    height: 10px;
+    background-color: red;
+    border-radius: 50%;
+    margin: 7px;
+    cursor: pointer;
+}
+@media (max-width:767px) {
+    .testmonial{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .leftTest,.rightTest{
+        width: 100%;
+        text-align: center;
+    }
+    .imgTest{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .bullets{
+        display: flex;
+        width: 100%;
+        justify-content: center;
+
+    }
+}

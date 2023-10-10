@@ -1,0 +1,9 @@
+#startLink{
+    text-transform: capitalize;
+    text-decoration: none;
+    text-align: center;
+    list-style: none;
+    text-decoration: underline;
+    color: red;
+    font-size: 50px;
+}

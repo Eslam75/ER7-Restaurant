@@ -1,0 +1,167 @@
+
+.containerCard{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+
+#contentCard{
+    width: 80%;
+
+}
+
+
+.content{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px 0;
+
+    justify-content: space-around;
+}
+
+
+.cardfood{
+    width: 23%;
+    display: flex;
+    border: 2px solid #333;
+
+    flex-direction: column;
+}
+#ccarrddFoood{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: flex-start;
+    height: 400px;
+    padding: 7px;
+    border: 2px solid #3333337c;
+    margin: 10px 0;
+    justify-content: space-around;
+
+}
+
+#salaryCartProduct{
+    font-size: 30px;
+}
+.imgProduct{
+    height: 100%;
+}
+.imgProduct img{
+    width: 100%;
+    height: 70%;
+}
+
+.textProduct{
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    width: 50%;
+    height: 100%;
+}
+.textProduct #tttitleproduct{
+font-size: 35px;
+}
+.priceCart{
+    display: flex;
+    width: 100%;
+
+}
+
+.qty{
+    width: 60%;
+    display: flex;
+    justify-content: space-around;
+}
+#showproduct{
+    display: none;
+}
+
+.qty button,.qty input{
+
+    border: none;
+    width: 20%;
+    background-color: transparent;
+}
+
+.qty button{
+    font-size: 30px;
+}
+
+
+@media(max-width:767px){
+#showproduct{
+    display: block;
+}
+    .contentCard{
+    width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    #ccarrddFoood{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .total{
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        background-color: red;
+    }
+    
+    .imgProduct{
+        width: 100%;
+        height: 50%;
+    }
+    #tttitleproduct{
+        text-transform: capitalize;
+        
+    }
+    #ccarrddFoood img{
+        width: 100%;
+    }
+    #tttitleproduct{
+        padding: 10px
+    }
+    .priceCart{
+        margin: 10px 0;
+    }
+    
+}
+
+/* 
+.cardFood{
+    cursor: pointer;
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.44);
+    width: 23%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+} */
+/* .categoryFood .cardFood img{
+    width: 98%;
+    height: 150px;
+    transition: .4s;
+    
+} */
+
+/* .categoryFood .cardFood:hover img{
+    transform: scale(1.1);
+    
+} */
+/* .cardFood>p{
+    padding: 7px 0;
+    text-transform: capitalize;
+}
+.priceCart{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+} */

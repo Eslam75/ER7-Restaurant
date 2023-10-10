@@ -1,0 +1,111 @@
+.PopularFood{
+    width: 100%;
+    min-height: 140vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.listMenuFood{
+    width: 80%;
+    background-color: red;
+display: flex;
+justify-content: space-around;
+align-items: center;
+display: flex;
+justify-content: space-around;
+
+}
+
+
+.listMenuFood button{
+    cursor: pointer;
+    padding: 7px 20px;
+    display: flex;
+    background-color: transparent;
+    border: none;
+    color: white;
+    justify-content: space-between;
+}
+
+
+
+.listMenuFood button span{
+    padding: 0 7px;
+    font-size: 27px;
+}
+
+.categoryFood{
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 10px 0;
+    height: 50vh;
+    padding: 10px;
+}
+.categoryFood .cardFood{
+    cursor: pointer;
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.44);
+    width: 23%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.categoryFood .cardFood img{
+    width: 98%;
+    height: 150px;
+    transition: .4s;
+    
+}
+
+.categoryFood .cardFood:hover img{
+    transform: scale(1.1);
+    
+}
+.cardFood>p{
+    padding: 7px 0;
+    text-transform: capitalize;
+}
+.priceCart{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.priceCart button{
+    text-align: center;
+    text-transform: capitalize;
+    padding: 5px 10px;
+    border: 1px solid red;
+    border-radius: 6px;
+}
+
+
+.activeNavfoodBtn{
+    background-color: white;
+    color: red;
+    
+
+}
+
+@media(max-width:767px){
+    .categoryFood{
+        width: 100%;
+    }
+    .categoryFood .cardFood{
+        width: 80%;
+        height: 300px;
+    }
+    .listMenuFood{
+        width: 100%;
+    }
+ .PopularFood{
+    height: 550vh;
+ }
+
+}
+@media (max-width:423px) {
+    
+}
