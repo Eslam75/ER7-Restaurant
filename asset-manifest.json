@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/ER7-Restaurant/static/css/main.7f0076e7.css",
+    "main.css": "/ER7-Restaurant/static/css/main.bc557bea.css",
     "main.js": "/ER7-Restaurant/static/js/main.aa208d08.js",
     "static/media/fa-solid-900.ttf": "/ER7-Restaurant/static/media/fa-solid-900.2877d54f94f30c5d563c.ttf",
     "static/media/fa-brands-400.ttf": "/ER7-Restaurant/static/media/fa-brands-400.13e40630e5866f777de8.ttf",
@@ -19,11 +19,11 @@
     "static/media/fa-v4compatibility.ttf": "/ER7-Restaurant/static/media/fa-v4compatibility.6c0a7b774ffa1cf0a059.ttf",
     "static/media/fa-v4compatibility.woff2": "/ER7-Restaurant/static/media/fa-v4compatibility.497d535001197a9c5b38.woff2",
     "index.html": "/ER7-Restaurant/index.html",
-    "main.7f0076e7.css.map": "/ER7-Restaurant/static/css/main.7f0076e7.css.map",
+    "main.bc557bea.css.map": "/ER7-Restaurant/static/css/main.bc557bea.css.map",
     "main.aa208d08.js.map": "/ER7-Restaurant/static/js/main.aa208d08.js.map"
   },
   "entrypoints": [
-    "static/css/main.7f0076e7.css",
+    "static/css/main.bc557bea.css",
     "static/js/main.aa208d08.js"
   ]
 }
